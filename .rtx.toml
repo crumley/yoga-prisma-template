@@ -1,0 +1,6 @@
+[env]
+NODE_ENV = 'production'
+DATABASE_URL = "postgresql://yoga-prisma-template:bun@localhost:5432/mydb?schema=public"
+
+[tools]
+bun = 'latest'
