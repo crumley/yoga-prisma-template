@@ -21,12 +21,13 @@ Install dependencies:
 
 ```sh
 brew install rtx direnv
+rtx install bun@latest
 ```
 
 Create a new project from the template:
 
 ```sh
-bun create github.com/crumlee/yoga-prisma-template ./YOUR_PROJECT
+bun create github.com/crumley/yoga-prisma-template ./YOUR_PROJECT
 ```
 
 ## Bun setup
