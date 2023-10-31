@@ -20,7 +20,7 @@ Tools
 Install dependencies:
 
 ```sh
-brew install rtx direnv
+brew install rtx
 rtx install bun@latest
 ```
 
@@ -36,7 +36,6 @@ bun create github.com/crumley/yoga-prisma-template ./YOUR_PROJECT
 cd YOUR_PROJECT
 rtx trust
 rtx install
-direnv allow
 bun install
 ```
 
